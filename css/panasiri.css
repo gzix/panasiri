@@ -4,5 +4,74 @@
 }
 
 .panasiri #branding {
-  margin-bottom: 20px;
+	width: 260px;
+  margin-bottom: 10px;
+}
+
+/* Menu bar*/
+
+/* Navigation */
+#menu-bar {
+	clear: both;
+}
+
+#menu-bar #block-system-main-menu {
+	float: left;
+}
+
+#menu-bar .menu-wrapper ul.menu li {
+	margin: 0 4px 0 0;
+}
+
+#menu-bar .menu-wrapper li a, #menu-bar .menu-wrapper .menu li a {
+	padding: 0 1.25em;
+	line-height: 2.3em;
+}
+
+/* i18n */
+#menu-bar #block-locale-language {
+	float: right;
+}
+
+#menu-bar .language-switcher-locale-url li {
+	margin: 0 0 0 4px;
+	font-size: 1.231em;
+}
+
+#menu-bar .language-switcher-locale-url li a {
+	padding: 0 0.75em;
+	width: 24px;
+	height: auto;
+	text-indent: -999em;
+}
+#menu-bar .language-switcher-locale-url li.en a,
+#menu-bar .language-switcher-locale-url li.th a,
+#menu-bar .language-switcher-locale-url li.en span.locale-untranslated,
+#menu-bar .language-switcher-locale-url li.th span.locale-untranslated {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+#menu-bar .language-switcher-locale-url li.en a,
+#menu-bar .language-switcher-locale-url li.en span.locale-untranslated {
+	background-image: url(../flags/en.png);
+}
+#menu-bar .language-switcher-locale-url li.th a,
+#menu-bar .language-switcher-locale-url li.th span.locale-untranslated {
+	background-image: url(../flags/th.png);
+}
+
+#menu-bar .language-switcher-locale-url li span.locale-untranslated {
+	display: block;
+	padding: 0 0.75em;
+	width: 24px;
+	height: auto;
+	line-height: 2.3em;
+	text-indent: -999em;
+	opacity: 0.25;
+	background-color: #9c4;
+	border-radius: 4px 4px 0 0;
+}
+
+.field-slideshow-slide img {
+	width: auto !important;
 }
