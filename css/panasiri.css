@@ -135,3 +135,32 @@ padding: 10px 0 0;
 	margin-right: 0;
 	border-left: 0 none;
 }
+
+/* list arrows */
+.mb-ad ul.menu {
+	padding-left: 0;
+}
+
+/* compact forms */
+.panasiri label.compact-form-label {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+	font-size: .85em;
+}
+
+/* login form */
+form#user-login-form .item-list ul,
+form#user-login-form .item-list ul li {
+	list-style: none;
+	margin-left: 2px;
+}
+
+/* temp footer */
+.region-footer .block-content p {
+	background: #113300;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 0;
+}

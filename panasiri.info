@@ -4,7 +4,6 @@
 
   name        = Panasiri
   description = Theme for baanpanasiri.com.
-  version     = 7.x-2.0
 
 
 ;----------// Drupal core compatibility - dont change this!
